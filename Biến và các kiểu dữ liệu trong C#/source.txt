@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace bai1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.OutputEncoding = Encoding.UTF8;
+            float a, b, s, p;
+            Console.WriteLine("Mời bạn nhập vào cạnh a hình chữ nhật: ");
+            a = float.Parse(Console.ReadLine());
+            Console.WriteLine("Mời bạn nhập vào cạnh b hình chữ nhật: ");
+            b = float.Parse(Console.ReadLine());
+            s = a * b;
+            p = (a + b) * 2;
+            Console.WriteLine("Diện tích hình chữ nhật là {0}", s);
+            Console.WriteLine("Diện tích hình chữ nhật là {0}", p);
+
+            Console.ReadKey();
+        }
+    }
+}

@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace bai1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.OutputEncoding = Encoding.UTF8;
+
+            double r;
+            double pi = 3.14;
+
+            Console.Write("Nhập bán kính r của đường tròn: ");
+            r = double.Parse(Console.ReadLine());
+            Console.WriteLine("Chu vi = {0}", 2 * r * pi);
+            Console.WriteLine("Diện Tích = {0}", pi * r * r);
+
+            Console.ReadKey();
+        }
+    }
+}
